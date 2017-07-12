@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" label="FirstTable" max_length="40" name="x_142107_demoapp_firsttable" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element label="test 1" sequence="0" value="test 1"/>
+                <element label="test 2" sequence="1" value="test 2"/>
+                <element label="test 3" sequence="2" value="test 3"/>
+            </choice>
+        </element>
+        <element label="New HTML" max_length="65536" name="u_html_4" type="html"/>
+        <element choice="1" label="NAME" mandatory="true" max_length="40" name="u_integer_1" type="integer">
+            <choice/>
+        </element>
+        <element choice="1" label="Unique" mandatory="true" max_length="40" name="u_integer_2" type="integer">
+            <choice/>
+        </element>
+        <element label="New Long" max_length="40" name="u_longint_2" type="longint"/>
+    </element>
+</database>
