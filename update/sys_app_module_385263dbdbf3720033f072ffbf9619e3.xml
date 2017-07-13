@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="DemoTable">305263dbdbf3720033f072ffbf9619e1</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>DemoTables</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_142107_demoapp_demotable</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_142107_demoapp.demotable_user</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-12 10:47:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>385263dbdbf3720033f072ffbf9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DemoTables</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DemoAPP" source="x_142107_demoapp">d372b9cedbf7720033f072ffbf9619ba</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DemoAPP">d372b9cedbf7720033f072ffbf9619ba</sys_scope>
+        <sys_update_name>sys_app_module_385263dbdbf3720033f072ffbf9619e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-12 10:47:15</sys_updated_on>
+        <timeline_page/>
+        <title>DemoTables</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
