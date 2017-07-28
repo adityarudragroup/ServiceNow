@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>asach</description>
+        <field>active</field>
+        <global>true</global>
+        <messages>asch</messages>
+        <name>gajanan_script</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   var g= new GlideAjax('server');
+	g.addParam('sysparam_name','callback');
+	g.getXML(parse);
+	
+   
+}
+
+function parse(response)
+{
+	var answer=response.responseXML.documentElement.getAttribute("answer");
+	alert(answer);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-27 09:18:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>274c5858db50030033f072ffbf961984</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>gajanan_script</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DemoAPP" source="x_142107_demoapp">d372b9cedbf7720033f072ffbf9619ba</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DemoAPP">d372b9cedbf7720033f072ffbf9619ba</sys_scope>
+        <sys_update_name>sys_script_client_274c5858db50030033f072ffbf961984</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-27 09:23:30</sys_updated_on>
+        <table>x_142107_demoapp_needit</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

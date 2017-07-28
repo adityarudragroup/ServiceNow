@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description>on submit popup</description>
@@ -10,9 +10,10 @@
         <messages>just do it</messages>
         <name>N_1</name>
         <order/>
-        <script><![CDATA[function onSubmit() {
-   var adi= "name population";
-	g_form.setValue("name",adi);
+        <script><![CDATA[function onLoad() {
+ 
+	if(g_form.getValue());
+ 	
    
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -22,7 +23,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2e0e5188db48030033f072ffbf961995</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>N_1</sys_name>
         <sys_overrides/>
         <sys_package display_value="DemoAPP" source="x_142107_demoapp">d372b9cedbf7720033f072ffbf9619ba</sys_package>
@@ -31,9 +32,9 @@
         <sys_scope display_value="DemoAPP">d372b9cedbf7720033f072ffbf9619ba</sys_scope>
         <sys_update_name>sys_script_client_2e0e5188db48030033f072ffbf961995</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-07-18 09:03:58</sys_updated_on>
+        <sys_updated_on>2017-07-25 06:41:57</sys_updated_on>
         <table>x_142107_demoapp_needit</table>
-        <type>onSubmit</type>
+        <type>onLoad</type>
         <ui_type>0</ui_type>
         <view/>
     </sys_script_client>

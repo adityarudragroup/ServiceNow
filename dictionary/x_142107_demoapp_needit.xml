@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="NeedIT" max_length="40" name="x_142107_demoapp_needit" sizeclass="4" type="collection">
+    <element extends="task" label="NeedIT" max_length="40" name="x_142107_demoapp_needit" sizeclass="18" type="collection">
         <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="email" max_length="40" name="u_string_1" type="string"/>
     </element>
 </database>
