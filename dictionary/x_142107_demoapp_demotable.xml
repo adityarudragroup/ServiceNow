@@ -3,6 +3,7 @@
     <element attributes="live_feed=true" label="DemoTable" max_length="40" name="x_142107_demoapp_demotable" type="collection">
         <element default="0" label="Assign_No" max_length="99" name="assign_no" type="integer"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="email" mandatory="true" max_length="40" name="u_string_1" type="string"/>
     </element>
 </database>
